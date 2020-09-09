@@ -18,3 +18,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: black;
+  height: 50px;
+}
+
+.header-list {
+  height: 50px;
+  padding: 0 50px;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
