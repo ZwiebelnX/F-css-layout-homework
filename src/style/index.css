@@ -24,6 +24,13 @@ header {
   height: 50px;
 }
 
+.main-container {
+  height: 1200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
 .header-list {
   height: 50px;
   padding: 0 50px;
@@ -32,4 +39,34 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.article-container {
+  margin: 10px;
+  box-shadow: 0 0 10px #888888;
+  outline-width: 1px;
+  width: 400px;
+  padding-bottom: 20px;
+}
+
+.image {
+  width: 400px;
+  height: 200px;
+}
+
+.article-title {
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.article-content {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.article-link {
+  display: block;
+  margin: 15px 15px;
+  text-decoration: none;
+  color: rgb(0, 89, 253);
 }
